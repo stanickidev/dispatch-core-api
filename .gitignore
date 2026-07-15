@@ -1,0 +1,38 @@
+# Segurança e Ambiente Local
+.env
+.env.*
+*.env
+application-local.yml
+application-local.properties
+application-secret.yml
+application-secret.properties
+
+# Logs e Dados de Infra Local
+*.log
+logs/
+/.data/
+/postgres-data/
+
+# Builds e Compilados
+target/
+build/
+.mvn/wrapper/maven-wrapper.jar
+
+# IDEs (IntelliJ, VS Code, STS)
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+*.code-workspace
+.metadata/
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated
+.sts4-cache
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
