@@ -1,0 +1,13 @@
+.git
+.gitignore
+.dockerignore
+README.md
+LICENSE
+.idea
+.vscode
+HELP.md
+
+# Ignora o lixo local para forçar o container a buildar o Java do zero
+target/
+build/
+.mvn/wrapper/maven-wrapper.jar
